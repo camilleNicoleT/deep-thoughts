@@ -4,8 +4,6 @@
   "description": "",
   "main": "server.js",
   "http.proxySupport": "off",
-
-
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon",
@@ -20,6 +18,7 @@
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "graphql": "^16.4.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.9"
   },
   "devDependencies": {
